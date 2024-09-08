@@ -1,0 +1,143 @@
+.wrapper{
+    width: 800px;
+    margin: 50px auto;
+}
+.photo{
+    border-radius: 50%;
+}
+.left{
+    display: flex;
+    gap: 20px;
+}
+
+h1,h2{
+    margin: 0;
+    font-size: 25px;
+}
+.info{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+}
+.right{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap:5px;
+}
+.line{
+    margin: 30px auto;
+    border: 2px solid gold;
+}
+
+
+
+.test{
+    margin: 30px auto;
+    border: 3px solid gold;
+    display: grid;
+
+    grid-template-columns: 399px 399px;
+    grid-column: 30px;
+    border-radius: 5px;
+}   
+
+#d1{
+    border-right: 3px solid gold;
+    border-bottom: 3px solid gold;
+    text-align: center;
+    color: rgb(194, 147, 18);
+}
+#d2{
+    border-bottom: 3px solid gold;
+    text-align: center;
+    color: rgb(194, 147, 18);
+}
+#d3{
+    margin:0 40% auto;
+    
+
+
+}
+#d4{
+    margin:0 auto;
+
+    
+}
+#extrasecret_textbox{
+    border-right: 3px solid gold;
+}
+.zagolovok{
+
+    margin-top: 40px;
+    background-color: goldenrod;
+    border-radius: 5px;
+    text-align: center;
+    height: 30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.flexo{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.colonna{
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#shadowed{
+    border-radius: 20px;
+    box-shadow: 0px 0px 50px 20px yellow;
+}
+.wide{
+    width: 49%;
+    outline: 2px solid lightgrey;
+    border-radius: 7px;
+}
+
+
+.wide2{
+    width: 100%;
+    border-radius: 7px;
+    outline: 2px solid lightgrey;
+}
+
+
+.textbox2{
+    border:0;
+    color: grey;
+    margin-left: 10px;
+    outline: 0;
+    font-size: 15px;
+}
+
+
+.textbox1{
+    border:0;
+    color: grey;
+    margin-left: 1%;
+    margin-top:5px;
+    margin-bottom: 5px;
+    outline: 0;
+    width: 97%;
+    font-size: 15px;
+}
+textarea {
+    resize: none;
+    width: 97%;
+    height: 200px;
+    font-size: 15px;
+    font-size: 15px;
+
+}
