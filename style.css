@@ -31,47 +31,46 @@ h1,h2{
     justify-content: center;
     gap:5px;
 }
-.line{
-    margin: 30px auto;
-    border: 2px solid gold;
+.table{
+    margin-top: 30px;
+    display: flex;
+    border: 1px solid goldenrod;
+    border-radius: 10px;
 }
-
-
-
-.test{
-    margin: 30px auto;
-    border: 3px solid gold;
-    display: grid;
-
-    grid-template-columns: 399px 399px;
-    grid-column: 30px;
-    border-radius: 5px;
-}   
-
-#d1{
-    border-right: 3px solid gold;
-    border-bottom: 3px solid gold;
+.table-left, .table-right{
+    width: 50%;
+}
+.table-left{
+    border-right: 1px solid goldenrod;
+}
+.table-right{
+    border-left: 1px solid goldenrod;
+}
+.table-header{
+    border-bottom:  1px solid goldenrod ;
     text-align: center;
-    color: rgb(194, 147, 18);
+    color: goldenrod;
+    padding: 5px 0;
+    font-weight:  600;
 }
-#d2{
-    border-bottom: 3px solid gold;
-    text-align: center;
-    color: rgb(194, 147, 18);
+.table-content{
+    flex-grow: 1;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-#d3{
-    margin:0 40% auto;
-    
+.table-list{
+    width: fit-content;
+    margin: 0;
 
-
 }
-#d4{
-    margin:0 auto;
-
-    
+.table-link{
+    text-decoration: none;
+    color: black;
 }
-#extrasecret_textbox{
-    border-right: 3px solid gold;
+.table-link:hover{
+    color: goldenrod;
 }
 .zagolovok{
 
@@ -96,9 +95,14 @@ h1,h2{
     flex-direction: column;
     text-align: center;
 }
-#shadowed{
+.card:hover{
     border-radius: 20px;
     box-shadow: 0px 0px 50px 20px yellow;
+    transition: 0.5s;
+    
+}
+.card{
+    transition: 0.5s;
 }
 .wide{
     width: 49%;
@@ -120,6 +124,7 @@ h1,h2{
     margin-left: 10px;
     outline: 0;
     font-size: 15px;
+    font-family:'Times New Roman', Times, serif;
 }
 
 
@@ -132,6 +137,7 @@ h1,h2{
     outline: 0;
     width: 97%;
     font-size: 15px;
+    font-family:'Times New Roman', Times, serif;
 }
 textarea {
     resize: none;
@@ -139,5 +145,20 @@ textarea {
     height: 200px;
     font-size: 15px;
     font-size: 15px;
-
+    font-family:'Times New Roman', Times, serif;
+}
+hr{
+    margin-bottom: 30px;
+}
+.end{
+    text-align: center;
+    margin-top: 20px;
+}
+button{
+    width: 20%;
+    padding: 5px;
+    border-radius: 10px;
+    border:none;
+    background-color: goldenrod;
+    cursor: pointer;
 }
